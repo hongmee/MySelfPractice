@@ -73,7 +73,7 @@ public class HuntTheWumpus {
 	
 	private static void showIntro() {
 		try {
-			FileInputStream inputStream = new FileInputStream("intro.txt");
+			FileInputStream inputStream = new FileInputStream("src/Wumpus/intro.txt");
 			Scanner scanner = new Scanner(inputStream);
 			while(scanner.hasNextLine()){
 				System.out.println(scanner.nextLine());
